@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Inscription"
+    android:orientation="horizontal"
+    android:background="@color/purple_500"
+    tools:ignore="ExtraText">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="327dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginHorizontal="80dp"
+        android:layout_marginStart="73dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="513dp"
+
+        android:text="Connexion"
+        android:textColor="@color/white"
+        android:textSize="60sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="wrap_content"
+        android:layout_height="59dp"
+
+
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="330dp"
+        android:layout_marginEnd="60dp"
+        android:drawableStart="@drawable/ic_baseline_email_24"
+        android:hint="@string/email"
+        android:textColorHint="#A3A3A3"
+        tools:ignore="Autofill" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="wrap_content"
+        android:layout_height="59dp"
+
+
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="410dp"
+        android:layout_marginEnd="60dp"
+        android:drawableStart="@drawable/ic_baseline_lock_24"
+        android:hint="@string/mot_de_passe"
+
+        android:textColorHint="#A3A3A3" />
+
+
+    <Button
+        android:id="@+id/btn_valid"
+        android:layout_width="321dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="620dp"
+        android:layout_marginEnd="45dp"
+        android:layout_marginBottom="63dp"
+        android:backgroundTint="#FFCB11"
+        android:text="Se connecter"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btn_valid2"
+        android:layout_width="367dp"
+        android:layout_height="84dp"
+        android:layout_alignParentStart="true"
+
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="474dp"
+        android:layout_marginEnd="36dp"
+        android:layout_marginBottom="172dp"
+        android:text="Vous n'avez pas de compte, inscrivez vous"
+        android:textColor="@color/white"
+        android:textSize="13dp"
+
+        />
+
+
+</RelativeLayout>
